@@ -1,8 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
 @import "tailwindcss";
-
-
-
-
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -17,8 +14,7 @@
   --container-color: hsl(220, 50%, 97%);
 
   /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: "Montserrat", system-ui;
+
   --big-font-size: 1.5rem;
   --normal-font-size: 0.938rem;
   --small-font-size: 0.813rem;
@@ -43,9 +39,31 @@
     --tiny-font-size: 0.75rem;
   }
 }
-
+p,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+}
+input::placeholder {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+}
+input {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+}
+button {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+}
 a {
   text-decoration: none;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
 }
 
 img {
@@ -81,6 +99,7 @@ img {
   color: var(--title-color);
   text-align: center;
   margin-bottom: 2rem;
+  font-family: Karla, sans-serif;
 }
 
 .login__box {
